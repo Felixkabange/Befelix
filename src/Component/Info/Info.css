@@ -1,0 +1,63 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Home-content {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* styles for iPad and smaller screens */
+  .Home-content {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* styles for iPhone and smaller screens */
+  .Home-content {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* styles for Samsung and smaller screens */
+  .Home-content {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.Home-bg {
+  background-image: url('../../Assets/Apple_background.jpg');
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.Info-content {
+  align-items: center;
+  text-align: center;
+}
+
+.Info-content h1, h2{
+  color: #cccccc;
+}
+
+.Home-content p{
+  color: #cccccc;
+}

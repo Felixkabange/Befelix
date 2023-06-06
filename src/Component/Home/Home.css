@@ -1,0 +1,54 @@
+.Home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Home-Content {
+  text-align: center;
+  color: #cccccc;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Home-Title {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.Home-Subtitle {
+  font-family: 'Satisfy', cursive;
+  font-size: 21px;
+  color: #cccccc;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+
+.Home-Description {
+  font-family: 'Satisfy', cursive;
+  font-size: 21px;
+  line-height: 2;
+  color: #cccccc;
+  align-items: center;
+  text-align: center;
+}
+
+.Home-Title h1{
+  color: #cccccc;
+}
+
+.Home-Subtitle h2{
+  color: #cccccc;
+}
+
+.Home-Description p{
+  color: #cccccc;
+}

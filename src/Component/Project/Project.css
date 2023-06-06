@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Satisfy&family=Ubuntu:ital@1&display=swap');
+
+
+.Project h1{
+  font-family: 'Satisfy', cursive;
+  color: #cccccc;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.imgages-original-size {
+  width: auto;
+  height: auto;
+}
+
+.description-container p{
+  font-family: 'Architects Daughter', cursive;
+  color: #cccccc;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.body {
+  background-image: url('../../Assets/Apple_background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.html, body {
+  height: 100%;
+}
+
+.Project{
+  background-size: cover;
+  background-position: center;
+
+}
+
+@media only screen and (max-device-width: 414px) and (orientation: portrait) { 
+  /* CSS code for iPhone devices */
+}
+
+@media only screen and (max-device-width: 480px) and (orientation: portrait) { 
+  /* CSS code for Samsung devices */
+}
+
+@media only screen and (max-width: 767px) { 
+  /* CSS code for small devices */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) { 
+  /* CSS code for iPads */
+}
